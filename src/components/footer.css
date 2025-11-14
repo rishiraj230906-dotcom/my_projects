@@ -1,0 +1,12 @@
+.footer {
+  padding: 2rem 1rem !important;
+}
+
+.footer h5 {
+  font-weight: bold !important;
+}
+
+.footer a {
+  color: #ff0000 !important;
+  text-decoration: none !important;
+}

@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid gray !important;
+    border-radius: 10px !important;
+    background-color: #161616 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    transition: 0.3s !important;
+    display: flex !important;
+    overflow: hidden !important;
+}
+.card:hover {
+    transform: scale(1.03) !important;
+    box-shadow: 0px 0px 30px rgba(255, 28, 28, 0.723) !important;
+}
+.gameimg {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    height: 200px !important;
+    object-fit: fill !important;
+}
+.btn-danger {
+    background-color: #d60000 !important;
+    border: none !important;
+}
+.btn-danger:hover {
+    background-color: #a30000 !important;
+}
+.container{
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,18 @@
+.register {
+  background-image: url(./images/cod_MW3.png);
+  background-size: cover;
+  background-image: no-repeat;
+}
+
+.register-card {
+  width: 100% !important;
+  max-width: 400px !important;
+  color: white !important;
+  border-radius: 12px !important;
+  background-color: rgba(0, 0, 0, 0.305) !important;
+}
+
+.card:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0px 0px 30px rgba(255, 28, 28, 0.723) !important;
+}

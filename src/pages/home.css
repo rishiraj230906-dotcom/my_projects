@@ -1,0 +1,62 @@
+.headings {
+  color: rgba(255, 255, 255, 0.566) ;
+  border-bottom: 1px solid gray ;
+  padding: 10px ;
+  font-size: medium ;
+  margin-left: 20px ;
+  transition: 0.3s ;
+}
+
+.headings:hover {
+  background-color: rgba(41, 41, 41, 0.853) ;
+  color: white ;
+  padding-left: 25px ;
+}
+
+.full-body {
+  display: flex ;
+  margin: 20px;
+}
+
+.consoles {
+  width: 300px ;
+  padding: 15px ;
+  background-color: black ;
+}
+
+.main-content {
+  flex: 1 ;
+  background-color: rgb(0, 0, 0) ;
+  height: auto ;
+  padding: 20px ;
+}
+.home-card {
+  border: 1px solid gray ;
+  border-radius: 10px ;
+  margin-bottom: 20px ;
+  background-color: #161616 ;
+  color: rgba(255, 255, 255, 0.8) ;
+  transition: 0.3s ;
+  width: 1130px ;
+}
+
+.card:hover {
+  transform: scale(1.03) ;
+  box-shadow: 0px 0px 30px rgba(255, 28, 28, 0.723) ;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px ;
+  border-top-right-radius: 10px ;
+  transition: 0.3s ;
+}
+
+.main_heading{
+  color: rgba(255, 255, 255, 0.592) ;
+  padding-top: 10px ;
+  padding-bottom: 20px ;
+}
+.main-page{
+  margin: 0px ;
+  padding: 0px ;
+}

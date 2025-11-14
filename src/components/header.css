@@ -1,0 +1,21 @@
+.navbar {
+  width: 100% !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+.game_search_bar {
+  background-color: black !important ;
+  border: 2px solid black !important ;
+  color: rgb(164, 164, 164) !important;
+  font-weight: 500 !important;
+}
+
+.game_search_bar:hover {
+  background-color: rgba(128, 128, 128, 0.038) !important ;
+}
+
+.game_search_bar::placeholder {
+  color: gray !important ;
+}
