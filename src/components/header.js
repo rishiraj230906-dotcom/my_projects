@@ -7,7 +7,7 @@ function Header({ activeLink, setActiveLink, isAuth, onLogout, Username }) {
     setActiveLink("Home");
   }
   return (
-    <div>
+    <div className='header'>
       {/* <!-- Navbar --> */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div className="container-fluid">
@@ -26,8 +26,7 @@ function Header({ activeLink, setActiveLink, isAuth, onLogout, Username }) {
               </li>
               <li className="nav-item">
                 <Link to="/emulators" className={`nav-link ${activeLink === "Emulators" ? "active" : ""}`} onClick={() => setActiveLink("Emulators")}>Emulators</Link>
-              </li>
-             
+              </li>          
               {isAuth ? (
                 <li className="nav-item dropdown">
                   <Link

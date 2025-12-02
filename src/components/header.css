@@ -1,8 +1,12 @@
+.header{
+  margin: 0px;
+  padding: 0px;
+}
 .navbar {
   width: 100% !important;
+  max-width: 100% !important;
   position: sticky !important;
   top: 0 !important;
-  z-index: 1000 !important;
 }
 
 .game_search_bar {

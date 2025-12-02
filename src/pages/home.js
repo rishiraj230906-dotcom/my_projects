@@ -30,7 +30,7 @@ const Home = ({ isAuth, ActiveTab, setActiveTab, Username }) => {
   const friendList = ["Rishi", "Vivek", "Pratyush", "Aaditya"];
   return (
     <div>
-      {!isAuth ?
+      {isAuth ?
         (
           <div className="main-window">
             {/* sidebar for tabs */}
@@ -146,8 +146,8 @@ const Home = ({ isAuth, ActiveTab, setActiveTab, Username }) => {
               {/* <!-- main content --> */}
               <div className="main-content">
                 {/* <!-- Card 1 --> */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="card h-100 home-card">
+                <div>
+                  <div className="card home-card">
                     <img src={playstation} className="card-img-top" alt="retro gaming" />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                       <h5 className="card-title"><i className="fa-brands fa-playstation"></i> Play Station portable</h5>
@@ -158,8 +158,8 @@ const Home = ({ isAuth, ActiveTab, setActiveTab, Username }) => {
                   </div>
                 </div>
                 {/* <!-- Card 2 --> */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="card h-1000 home-card">
+                <div>
+                  <div className="card home-card">
                     <img src={nitendo} className="card-img-top" alt="nintendo mario" />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                       <h5 className="card-title">Nintendo Always Works on Making Next Mario Game</h5>
@@ -172,8 +172,8 @@ const Home = ({ isAuth, ActiveTab, setActiveTab, Username }) => {
                   </div>
                 </div>
                 {/* <!-- Card 3 --> */}
-                <div className="col-md-6 col-lg-3">
-                  <div className="card h-100 home-card">
+                <div>
+                  <div className="card home-card">
                     <img src={gameboy} className="card-img-top" alt="Gameboy advance image" />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                       <h5 className="card-title">Nintendo Switch's Gameboy Advance the third Most Sold Console in the World so far</h5>

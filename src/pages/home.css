@@ -15,11 +15,12 @@
 
 .full-body {
   display: flex ;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
 .consoles {
-  width: 300px ;
+  width: 250px ;
   padding: 15px ;
   background-color: black ;
 }
@@ -28,7 +29,8 @@
   flex: 1 ;
   background-color: rgb(0, 0, 0) ;
   height: auto ;
-  padding: 20px ;
+  width: auto ;
+  padding: 10px ;
 }
 .home-card {
   border: 1px solid gray ;
@@ -37,7 +39,7 @@
   background-color: #161616 ;
   color: rgba(255, 255, 255, 0.8) ;
   transition: 0.3s ;
-  width: 1130px ;
+  width: 100% ;
 }
 
 .card:hover {
@@ -48,7 +50,8 @@
 .card-img-top {
   border-top-left-radius: 10px ;
   border-top-right-radius: 10px ;
-  transition: 0.3s ;
+  height: auto ;
+  width: 100% ;
 }
 
 .main_heading{
@@ -60,3 +63,14 @@
   margin: 0px ;
   padding: 0px ;
 }
+@media (max-width: 768px) {
+      .consoles {
+        display: none;
+      }
+      .main-content {
+        width: 100%;
+      }
+      .home-card {
+        width: 100%;
+      }
+    }
